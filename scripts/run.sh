@@ -1,5 +1,5 @@
 sudo docker run -ti \
-  -p $4:80 \
+  -p $4:8091\
   --link mongo:mongo \
   --link neo4j:neo4j \
   --env NODE_ENV=$3 \
